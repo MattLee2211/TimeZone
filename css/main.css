@@ -1,7 +1,6 @@
 .navbar {
   padding: 0px 10px;
   z-index: 1000;
-
 }
 
 .nav-item .nav-link a:active,
@@ -14,13 +13,12 @@ a:focus {
   color: red !important;
 }
 
-
 .navbar-nav .nav-item {
   text-align: center;
 }
 
 .navbar-brand img {
-  width: 13 0px;
+  width: 130px; /* Fixed typo in width */
 }
 
 .container-fluid {
@@ -51,8 +49,6 @@ a:focus {
   animation-iteration-count: infinite;
 }
 
-
-
 @keyframes zooming {
   100% {
     transform: scale(0.9);
@@ -74,7 +70,6 @@ a:focus {
   margin-bottom: 26px;
   font-family: "Josefin Sans", sans-serif;
   color: #0b1c39;
-
 }
 
 .ricons i {
@@ -91,7 +86,6 @@ a:focus {
   padding-left: 30px;
   padding-right: 30px;
   background-color: #f0f0f2;
-
 }
 
 .p-text {
@@ -118,7 +112,6 @@ a:focus {
   border-radius: 0px;
   margin-top: 0.5cm;
   line-height: 0;
-  ;
 }
 
 .card-body {
@@ -164,7 +157,6 @@ a:focus {
 .nav-link a {
   background: none;
   border-bottom: 2px solid #ff5757;
-
 }
 
 .nav .nav-link {
@@ -202,7 +194,6 @@ a:focus {
   position: absolute;
   width: 100%;
   justify-content: center;
-
   bottom: 0px;
   height: 10px;
 }
@@ -213,7 +204,6 @@ a:focus {
 
 .single-items:hover .img-cap {
   height: 60px;
-
 }
 
 .single-items:hover .img-cap .addcart {
@@ -221,7 +211,6 @@ a:focus {
   text-align: center;
   color: white;
   padding: 15px 0;
-
 }
 
 .item-img img {
@@ -258,8 +247,6 @@ a:focus {
   right: 0;
   padding: 15px;
   z-index: 9999;
-
-
 }
 
 .favicon i {
@@ -268,7 +255,6 @@ a:focus {
 
 .single-items:hover .favicon i {
   display: block;
-
 }
 
 .ship {
@@ -291,7 +277,6 @@ a:focus {
   font-family: "Roboto", sans-serif;
 }
 
-
 .foterlist {
   padding: 0 0;
 }
@@ -305,14 +290,12 @@ a:focus {
 .foterlist li a:hover {
   color: red;
   padding-left: 20px;
-
 }
 
 .foterlist li {
   color: #868c98;
   margin-bottom: 15px;
   list-style: none;
-
 }
 
 .col-3 h3 {
@@ -330,7 +313,6 @@ a:focus {
   width: 100%;
 }
 
-
 .sicons i {
   color: #000;
   padding: 0px 10px;
@@ -339,7 +321,6 @@ a:focus {
 }
 
 .sicons i:hover {
-
   padding: 0px 10px;
   size: 14px;
   color: #ff2020;
@@ -385,7 +366,6 @@ a:focus {
   right: 5px;
   width: 30px;
   margin: 5px;
-
 }
 
 .overlap {
@@ -419,3 +399,119 @@ a:focus {
   margin-top: 150px;
 }
 
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+  .hed {
+    font-size: 72px;
+  }
+
+  .sectionbanner .row h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar .nav-item a {
+    padding: 20px 10px !important;
+  }
+
+  .hed {
+    font-size: 60px;
+  }
+
+  .row h2 {
+    font-size: 36px;
+  }
+
+  .sectionbanner {
+    height: 400px;
+  }
+
+  .sectionbanner .row h2 {
+    font-size: 40px;
+  }
+
+  .p-text {
+    padding-right: 20px;
+  }
+
+  .btn-primary {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .card-body .card-text a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-item a {
+    padding: 15px 5px !important;
+  }
+
+  .hed {
+    font-size: 48px;
+  }
+
+  .row h2 {
+    font-size: 24px;
+  }
+
+  .sectionbanner {
+    height: 300px;
+  }
+
+  .sectionbanner .row h2 {
+    font-size: 30px;
+  }
+
+  .p-text {
+    padding-right: 10px;
+  }
+
+  .btn-primary {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  .card-body .card-text a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .nav-item a {
+    padding: 10px 5px !important;
+  }
+
+  .hed {
+    font-size: 36px;
+  }
+
+  .row h2 {
+    font-size: 18px;
+  }
+
+  .sectionbanner {
+    height: 200px;
+  }
+
+  .sectionbanner .row h2 {
+    font-size: 20px;
+  }
+
+  .p-text {
+    padding-right: 5px;
+  }
+
+  .btn-primary {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .card-body .card-text a {
+    font-size: 16px;
+  }
+}
