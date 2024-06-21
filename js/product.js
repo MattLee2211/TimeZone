@@ -212,7 +212,7 @@ function closePopup() {
 
 function confirmAddToCart() {
     closePopup();
-    window.location.href = "cart.html";
+    window.location.href = "Cart.html";
 }
 
 document.getElementById('product-list').innerHTML = generateAllProductHTML();
